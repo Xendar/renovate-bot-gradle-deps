@@ -1,0 +1,10 @@
+plugins {
+  id 'java'
+}
+
+dependencies {
+  constraints {
+      implementation "org.mapstruct:mapstruct:${mapstructVersion}"
+      annotationProcessor "org.mapstruct:mapstruct-processor:${mapstructVersion}"
+  }
+}
