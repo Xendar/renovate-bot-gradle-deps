@@ -1,0 +1,10 @@
+plugins {
+  id 'java'
+}
+
+description = 'My Module'
+
+dependencies {
+  implementation 'org.mapstruct:mapstruct'
+  annotationProcessor 'org.mapstruct:mapstruct-processor'
+}
